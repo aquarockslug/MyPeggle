@@ -3,7 +3,7 @@ var div 		= document.getElementById("game");
 var WIDTH 		= div.offsetWidth;
 var HEIGHT 		= div.offsetHeight;
 
-var player = null;
+var player;
 
 function preload() {
 	game.load.image('heart', 'assets/sprites/heart.png');

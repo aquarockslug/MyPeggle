@@ -11,8 +11,8 @@ function Player(game) {
 	game.input.onDown.add(fire, this);
 
 	// create
+	var playerSprite;
 	this.create = create;
-	var playerSprite = null;
 	function create(){
 		playerSprite = game.add.sprite(0, 0, 'player');
 		playerSprite.anchor.x = .5;
